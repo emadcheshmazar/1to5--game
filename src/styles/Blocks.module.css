@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: aliceblue;
+    font-size: 2rem;
+}
+
+.listAContainer {
+    margin: 0;
+    margin-top: 20px !important;
+    width: 95vw;
+    height: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+    position: absolute;
+    transition: all 0.2s ease;
+
+}
+
+.listBContainer {
+    margin: 0;
+    margin-top: 20px !important;
+    width: 95vw;
+    height: 95vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    /* cursor: pointer; */
+    transition: all 0.2s ease;
+
+}
+
+
+
+.hide {
+    transition: all 0.03s ease;
+    width: 18vw;
+    height: 18vw;
+    color: #fff;
+    margin: 0.5vw;
+    display: flex;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+
+.delete {
+    display: none;
+}
+
+.button {
+    background-color:rgb(208, 193, 26) ;
+    padding: 2vw 7vw;
+    margin: 3vw 0 0 2vw;
+    border-radius: 5px;
+    border: none;
+    -webkit-box-shadow: 1px 2px 8px 1px rgba(0,0,0,0.66); 
+    box-shadow: 1px 2px 8px 1px rgba(0,0,0,0.66);
+}

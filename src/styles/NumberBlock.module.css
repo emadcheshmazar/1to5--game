@@ -1,0 +1,31 @@
+.container {
+    width: 18vw;
+    height: 18vw;
+    background-color: rgb(69, 89, 241);
+    color: #fff;
+    margin: 0.5vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+
+}
+.containerB {
+    width: 18vw;
+    height: 18vw;
+    background-color: rgb(47, 66, 218);
+    color: #fff;
+    margin: 0.5vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+
+}  
+
+
+
+
+
