@@ -33,18 +33,17 @@ const Blocks = () => {
                  <Timer 
                     isTimerOn={timerOn}
                 />
-                <span>{counter}</span>
+                <span>{counter <= 50 && counter}</span>
             </div>
                     {
                         counter > 50 ? <button onClick={() => {window.location.reload()}} className={styles.button}>try again</button> : <button onClick={() => {window.location.reload()}} className={styles.button}>reset</button>
                     }
-            <div className={styles.container}>
+            <div className={styles.container} onClick={clickHandeler}>
                 <div className={counter >= 26 ? styles.delete : styles.listAContainer}>
                     {
                         numberListA.map(number => {
                             return <div 
                             key={number}
-                            onClick={clickHandeler}
                             >
                                 <NumberBlock
                                 value={number}
@@ -60,7 +59,6 @@ const Blocks = () => {
                             return <div 
                             className={styles.listB}
                             key={number}
-                            onClick={clickHandeler}
                             >
                                 <NumberBlock
                                 value={number}
