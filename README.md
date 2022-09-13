@@ -1,4 +1,5 @@
-Demo of 1-50 game:
+#Demo of 1-50 game:
+(open with phone)
 https://zesty-mooncake-14252a.netlify.app/
 
 
